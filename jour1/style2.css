@@ -17,10 +17,3 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,400px);
 }
-
-img{
-    margin: 5px;
-    margin-bottom: 5px;
-    margin-inline: 5px;
-
-}
