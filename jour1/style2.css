@@ -6,6 +6,7 @@ body{
 
 img{
     max-width: 100%;
+    animation-name: inherit;
 }
 
 a{
@@ -13,7 +14,4 @@ a{
     font-size: 20px;
 }
 
-h3{
-    display: grid;
-    grid-template-columns: repeat(2,400px);
-}
+
