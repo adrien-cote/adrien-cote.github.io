@@ -5,3 +5,11 @@ img{
     display: block;
     max-width: 100%;    
 }
+
+.system{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.google-font{
+    font-family: 'Bebas Neue', cursive;
+}
