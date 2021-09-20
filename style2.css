@@ -41,7 +41,7 @@ img{
 .horizontal{
     max-width: 100%;
     display: block;
-    grid-column: 1/3;
+    grid-column: 1/3;;
 }
 
 .vertical{
@@ -80,4 +80,52 @@ img{
     display: block;
     grid-column: 1/3;
     grid-row: 11/13;
+}
+
+
+.div-image-parallax{
+    height: 400px;
+    max-width: 100%;
+    grid-column: 1/3;
+}
+
+
+.image-parallax{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/09_Book_Mockup.jpg);
+}
+
+.image-parallax2{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/trav.jpg);
+}
+
+.image-parallax3{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/affschuitenbanniere.jpg);
+}
+
+.image-parallax4{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/2_resultat\ copie.jpg);
 }
