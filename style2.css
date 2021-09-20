@@ -4,7 +4,6 @@ html{
 
 .index{
     background : linear-gradient(rgb(190, 190, 190),rgb(51, 51, 51));
-    background-attachment:scroll;
     color: white ;
     gap: 12px;
     max-width: 1200px;
@@ -100,7 +99,7 @@ img{
 
 
 .div-image-parallax{
-    height: 400px;
+    height: 300px;
     max-width: 100%;
     grid-column: 1/3;
 }
