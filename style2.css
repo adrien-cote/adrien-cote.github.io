@@ -99,8 +99,11 @@ body{
     text-align: right; 
     align-self: center;
     font-size: clamp(10px, 3vw,20px);
-    font-weight: bold;
-    
+    font-weight: bold;  
+}
+
+.info:hover{
+    text-decoration:underline;
 }
 
 .instagram{
@@ -111,6 +114,10 @@ body{
     font-size: clamp(10px, 3vw,20px);
     text-align: right;
     font-weight: bold;
+}
+
+.instagram:hover{
+    text-decoration:underline;
 }
 
 
@@ -222,6 +229,28 @@ img{
     grid-column: span 3;
 }
 
+.image-parallax5{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/Volpara.jpg);
+    grid-column: span 3;
+}
+
+.image-parallax6{
+    max-width: 100%;
+    height: 100%;
+    background-attachment: fixed !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(jour1/img/compospara.jpg);
+    grid-column: span 3;
+}
+
 figure{
     width:100%;
     position: relative;
@@ -241,10 +270,11 @@ figcaption {
   bottom: 50%;
   left:0;
   right:0;
-  color: white;
+  color: rgb(255, 230, 0);
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 24px;
+  font-weight: bold;
 }
   
 figure:hover figcaption {
@@ -254,13 +284,13 @@ figure:hover figcaption {
 
 
 .imgacc:hover {
-    filter: blur(25px);
+    filter: blur(15px);
     transition: all 0.5s;
 }
 
 .couleurtitre{
-    -webkit-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: color 1s;
+    transition: color 1s;
     color: rgb(255, 230, 0);
     text-decoration: none;
     background-color:rgb(0, 60, 255);
@@ -284,4 +314,16 @@ p{
     line-height: 200%;
     grid-column: span 2;
     color: rgb(255, 230, 0);
+}
+
+.lienex{
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.lienex:hover{
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 60, 255);
 }
