@@ -136,8 +136,9 @@ img{
 
 .video{
     display: block;
-    grid-column: span 2;
+    grid-column: span 1;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 
