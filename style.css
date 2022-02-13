@@ -31,6 +31,9 @@ img:hover {
     filter: grayscale(0);
 }
 
+.vid{
+    width: 100%;
+}
 
 /* HEADER */
 
@@ -48,7 +51,7 @@ header {
 
 .logoAC {
     font-family: 'Kafka Display';
-    font-size: 48px;
+    font-size: 54px;
     color: white;
     text-decoration: none;
 }
