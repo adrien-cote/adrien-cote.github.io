@@ -40,11 +40,12 @@ img:hover {
 header {
     position: fixed;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.486);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1%;
     z-index: 1;
+
 }
 
 /* textheader */
@@ -149,6 +150,7 @@ body {
 h1{
     font-family: 'Kafka Display';
     font-size: 48px;
+    font-weight: normal;
 }
 
 /* footer */
@@ -169,7 +171,7 @@ h1{
     background: #333;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    background: url('img/AMETHYSTBG.png');
+    background: url('img/BG.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -300,3 +302,22 @@ h1{
     
 
 }
+
+
+.CV{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clignote {
+    color:rgb(0, 0, 0);
+    animation: clignote 2s linear infinite;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
