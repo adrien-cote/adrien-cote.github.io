@@ -111,6 +111,14 @@ body {
         position: fixed;
     }
 }
+@media (min-width:1100px) {
+    .grilleprojetbis {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 5%;
+        gap: 5px;
+    }
+}
 
 .bandprojettxt{
    padding-right: 5px;
@@ -118,6 +126,16 @@ body {
 
 @media (min-width:800px) {
     .bandprojet{
+        overflow-y: scroll;
+        scrollbar-color: rebeccapurple green;
+        scrollbar-width: thin;
+        height: 900px;
+    }
+}
+@media (min-width:800px) {
+    .bandprojetbis{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         overflow-y: scroll;
         scrollbar-color: rebeccapurple green;
         scrollbar-width: thin;
@@ -320,4 +338,8 @@ h1{
 
   @keyframes clignote {  
     50% { opacity: 0; }
+  }
+
+  .introbis{
+      grid-column: span 2;
   }
