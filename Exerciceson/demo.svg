@@ -1,0 +1,5 @@
+ <svg width="800px" height="800px">
+    <circle id="ho" cx="400" cy="400" r="50" fill="yellow"/>
+    <circle id="sd" cx="500" cy="400" r="50" fill="#f60"/>
+    <circle id="bd" cx="300" cy="400" r="50" fill="red"/>
+ </svg> 
